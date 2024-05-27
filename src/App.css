@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.drawing-canvas {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.shape {
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.square {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.resizer {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}
